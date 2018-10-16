@@ -1,11 +1,11 @@
-<!-- Script Made by FAXES (Minor Edits by NEP)-->
+<!-- Script Made by FAXES (Minor Edits by NEP) -->
 <html>
     <head>
         <link href="keks.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="style.css">
 		
 <!-- ATTENTION!!!
-Below Replace src comments with a link to a file. ALL AUDIO FILES MUST BE .OGG FORMAT! LOOK AT MY FORUM POST FOR MORE
+Below Replace src comments with a link to a file or /music folder in this resource. ALL AUDIO FILES MUST BE .OGG FORMAT! LOOK AT MY FORUM POST FOR MORE
 
 Add more of the 'if (a==4)' below in the script for more songs and then add to the 'var a = Math.random()*5;' line.
  -->
@@ -17,24 +17,24 @@ a=Math.floor(a);
 
 if(a==4)
 {
-document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/5.ogg' type='audio/ogg'></audio>";
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='http://mydomain.com/song.ogg' type='audio/ogg'></audio>";
 }
-else if(a==3)
+if(a==3)
 {
-document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/4.ogg' type='audio/ogg'></audio>";
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='http://mydomain.com/song.ogg' type='audio/ogg'></audio>";
 }
-else if(a==2)
+if(a==2)
 {
-document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/3.ogg' type='audio/ogg'></audio>";
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='http://mydomain.com/song.ogg' type='audio/ogg'></audio>";
 }
 
-else if(a==1)
+if(a==1)
 {
-document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/2.ogg' type='audio/ogg'></audio>";
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='http://mydomain.com/song.ogg' type='audio/ogg'></audio>";
 }
-else if(a==0)
+if(a==0)
 {
-document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/1.ogg' type='audio/ogg'></audio>";
+document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='http://mydomain.com/song.ogg' type='audio/ogg'></audio>";
 }
 }
 </script>		
@@ -44,8 +44,7 @@ document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' l
             <div class="top">
             </div>
            </div>
-        <!--
-
+<!--
 The below div is the bar animations simply uncomment to enable.
 Read the wiki link below for instructions
 https://github.com/FAXES/fax-loadscreen/wiki/Enabling-bar-animations
