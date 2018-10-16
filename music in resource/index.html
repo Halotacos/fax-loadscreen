@@ -1,4 +1,4 @@
-<!-- Script Made by FAXES -->
+<!-- Script Made by FAXES (minor edits by NEP) -->
 <html>
     <head>
         <link href="keks.css" rel="stylesheet" type="text/css" />
@@ -19,20 +19,20 @@ if(a==4)
 {
 document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/5.ogg' type='audio/ogg'></audio>";
 }
-if(a==3)
+else if(a==3)
 {
 document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/4.ogg' type='audio/ogg'></audio>";
 }
-if(a==2)
+else if(a==2)
 {
 document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/3.ogg' type='audio/ogg'></audio>";
 }
 
-if(a==1)
+else if(a==1)
 {
 document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/2.ogg' type='audio/ogg'></audio>";
 }
-if(a==0)
+else if(a==0)
 {
 document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' loop autoplay controls><source src='music/1.ogg' type='audio/ogg'></audio>";
 }
@@ -40,16 +40,12 @@ document.getElementById('soundtrack').innerHTML="<audio id='background_audio1' l
 </script>		
     </head>
     <body onload="play()">
-	<div id="soundtrack">
-
-	</div>
-
-        <div class="backdrop">
+        <div id="soundtrack" class="backdrop">
             <div class="top">
             </div>
            </div>
-        </div>
-<!--
+        <!--
+
 The below div is the bar animations simply uncomment to enable.
 Read the wiki link below for instructions
 https://github.com/FAXES/fax-loadscreen/wiki/Enabling-bar-animations
