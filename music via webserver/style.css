@@ -4,6 +4,13 @@ body{
   background-color: #00FFFFFF;
 }
 
+audio{
+       position: fixed;
+       width: 30%;
+       height: 50%; 
+       left: 35%;
+}
+
 .loader{
 	position: fixed;
 	z-index: 3;
